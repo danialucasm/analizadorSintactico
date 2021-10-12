@@ -1,0 +1,16 @@
+ACCION HolaMundo _es
+
+Ambiente
+
+nombre_usuario : alfanumerico
+
+Proceso
+
+escribir("Ingrese su nombre de usuario:");
+
+leer(nombre_usuario);
+
+escribir("Hola Mundo");
+
+escribir("Bienvenido al super lexer y parser del pseudocodigo", nombre_usuario);
+fin_accion;

@@ -1,0 +1,31 @@
+accion prueba _es
+
+Ambiente
+
+X:alfanumerico
+
+Y:entero
+
+S:entero
+
+Z:real
+Proceso
+
+Escribir("ingrese monto");
+
+Leer(x);
+Y:=20;
+Si (x<500 ) entonces
+Z:= ((X*1.21)+Y);
+I:=(3+5);
+
+Sino
+
+Z:= ( X * 1.21)  ; 
+
+
+Fin_si;
+
+Escribir ("su monto total es: $", Z );
+
+Fin_accion;
